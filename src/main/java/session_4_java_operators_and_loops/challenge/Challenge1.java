@@ -11,4 +11,3 @@ public class Challenge1 {
             System.out.println("Are those two strings refers to the same object " + checkIsEqual);
         }
     }
-}

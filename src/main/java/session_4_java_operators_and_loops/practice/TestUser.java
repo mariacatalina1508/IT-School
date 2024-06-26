@@ -19,4 +19,3 @@ public class TestUser {
         //code goes here
     }
 }
-}

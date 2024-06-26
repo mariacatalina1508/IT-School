@@ -95,6 +95,3 @@ public class SwitchStatements {
         }
     }
 }
-
-public class SwitchStatements {
-}

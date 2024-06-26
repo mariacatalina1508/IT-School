@@ -8,4 +8,3 @@ public class Challenge4 {
             System.out.println("The maximum height is: " + maximumHeight);
         }
     }
-}

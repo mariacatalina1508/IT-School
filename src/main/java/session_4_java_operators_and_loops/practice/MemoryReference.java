@@ -43,4 +43,3 @@ class User {
         return Objects.hash(firstName);
     }
 }
-}
