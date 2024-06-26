@@ -6,9 +6,9 @@ public class MainStudent {
         Student student1 = new Student();
         student1.name = "John";
         student1.age = 23;
-        //student1.displayDateils();
+        //student1.displayDetails();
 
-        System.out.println(student1);
+        //System.out.println(student1);
 
         Student student2 = new Student();
         student2.name = "John";

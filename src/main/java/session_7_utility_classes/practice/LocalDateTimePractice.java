@@ -1,34 +1,30 @@
 package session_7_utility_classes.practice;
 
 import java.time.Duration;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class LocalDateTimePractice {
 
     public static void main(String[] args) {
         LocalDateTime localDateTime = LocalDateTime.now();
-        System.out.println(localDateTime);
+        //System.out.println(localDateTime);
 
-
-        long decrement;
-        //printLocalDateTimeDecrement(localDateTime, decrement:5L);
-        Object localdateTime;
-        LocalDateTime localDateTime2 = localdateTime.plusDays(2);
-        printLocaldateTimeDifference(localDateTime.minusHours(decrement));
+        //printLocalDateTimeDecrement(localDateTime, 5L);
+        LocalDateTime localDateTime2 = localDateTime.plusDays(2);
+        printLocalDateTimeDifference(localDateTime, localDateTime2);
     }
 
     public static void printLocalDateTimeDecrement(LocalDateTime localDateTime, long decrement) {
-        Duration localdateTime;
-        System.out.println(localdateTime.minusHours(decrement));
+        System.out.println(localDateTime.minusHours(decrement));
     }
-    public static void printLocaldateTimeDifference(LocalDate startLocalDateTime, LocalDateTime endLocalDateTime) {
+
+    public static void printLocalDateTimeDifference(LocalDateTime startLocalDateTime, LocalDateTime endLocalDateTime) {
         Duration duration = Duration.between(startLocalDateTime, endLocalDateTime);
         long hours = duration.toHours();
         long minutes = duration.toMinutes();
-        long seconds = duration.getSeconds();
+        long seconds = duration.toSeconds();
 
-        System.out.printf("Time difference is %d hours, %d minutes, %d seconds, hours, minutes, seconds ";
-
+        System.out.printf("Time difference is %d hours, %d minutes, %d seconds", hours, minutes, seconds);
     }
+
 }
