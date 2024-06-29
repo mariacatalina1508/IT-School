@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Challenge3 {
 
     public static LocalDate createSpecificDate() {
-        LocalDate specificDate = LocalDate.of(2025, 8, 19);
+        LocalDate specificDate = LocalDate.of(2023, 5, 20);
         return specificDate;
     }
 
