@@ -6,6 +6,7 @@ public class MethodReturnTypes {
         int intValue = getInt();
         printInt();
 
+        System.out.println(getDouble());
     }
 
     public static int getInt() {
@@ -18,5 +19,9 @@ public class MethodReturnTypes {
 
     public void testMethod() {
 
+    }
+
+    public static double getDouble() {
+        return 3.14;
     }
 }
