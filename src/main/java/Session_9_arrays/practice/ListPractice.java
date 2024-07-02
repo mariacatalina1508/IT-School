@@ -1,4 +1,4 @@
-package Session_9_Arrays.practice;
+package Session_9_arrays.practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
