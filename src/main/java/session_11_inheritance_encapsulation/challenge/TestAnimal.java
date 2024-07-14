@@ -2,7 +2,7 @@ package session_11_inheritance_encapsulation.challenge;
 
 public class TestAnimal {
 
-    public class void main(String[] args) {
+    public static void main(String[] args) {
         Animal animal = new Animal();
         animal.sound();
         Dog dog = new Dog();
