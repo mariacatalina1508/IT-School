@@ -1,6 +1,6 @@
-package session_11_inheritance_encapsulation.challenge1;
+package session_11_inheritance_encapsulation.challenge.animal;
 
-    public class Cat extends  Animal{
+public class Cat extends Animal {
 
         @Override
         void sound() {
