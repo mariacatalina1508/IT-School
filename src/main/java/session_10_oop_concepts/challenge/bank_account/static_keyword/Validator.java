@@ -1,4 +1,4 @@
-package session_10_oop_concepts.static_keyword;
+package session_10_oop_concepts.challenge.bank_account.static_keyword;
 
 public class Validator {
 

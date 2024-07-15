@@ -1,4 +1,4 @@
-package Session_9_arrays.challenge;
+package session_9_arrays.challenge;
 
 public class Challenge4 {
     // 4. Given an array of 10 integers, count how many of them are even numbers and how many are odd.

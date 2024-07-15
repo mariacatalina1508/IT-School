@@ -1,4 +1,4 @@
-package session_10_oop_concepts.bank_account;
+package session_10_oop_concepts.challenge.bank_account;
 
 import java.util.UUID;
 

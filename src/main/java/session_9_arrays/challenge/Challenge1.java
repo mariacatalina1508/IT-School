@@ -1,4 +1,4 @@
-package Session_9_arrays.challenge;
+package session_9_arrays.challenge;
 
 public class Challenge1 {
     // 1. Create a shopping list with Array and print the values

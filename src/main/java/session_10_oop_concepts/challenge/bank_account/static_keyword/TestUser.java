@@ -1,6 +1,4 @@
-package session_10_oop_concepts.static_keyword;
-
-import static session_10_oop_concepts.static_keyword.Validator.isValidUser;
+package session_10_oop_concepts.challenge.bank_account.static_keyword;
 
 public class TestUser {
 
@@ -18,7 +16,7 @@ public class TestUser {
 
         //Validator validator = new Validator();
         //validator.isValidUser(user1);
-        boolean isValidUser = isValidUser(user1);
+        boolean isValidUser = Validator.isValidUser(user1);
         System.out.println(isValidUser);
 
         System.out.println(user2);

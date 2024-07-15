@@ -1,4 +1,4 @@
-package session_10_oop_concepts.oop_design;
+package session_10_oop_concepts.challenge.bank_account.oop_design;
 
 import java.util.ArrayList;
 import java.util.List;

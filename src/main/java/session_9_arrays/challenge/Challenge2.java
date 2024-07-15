@@ -1,4 +1,4 @@
-package Session_9_arrays.challenge;
+package session_9_arrays.challenge;
 
 import java.util.ArrayList;
 
