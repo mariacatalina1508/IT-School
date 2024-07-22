@@ -1,4 +1,4 @@
-package session_15_oop_recap.practice;
+package session_15_oop_recap.practice.change_runtime;
 
 public class Bow implements Weapon {
 
