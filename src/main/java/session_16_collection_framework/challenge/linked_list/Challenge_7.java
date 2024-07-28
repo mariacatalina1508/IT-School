@@ -5,6 +5,8 @@ import java.util.LinkedList;
 public class Challenge_7 {
 
     public static void main(String[] args) {
+
+
         LinkedList<String> VisitPlace = new LinkedList<>();
         VisitPlace.add("New York");
         VisitPlace.add("Los Angeles");
