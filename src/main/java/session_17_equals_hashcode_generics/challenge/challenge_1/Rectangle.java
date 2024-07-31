@@ -1,3 +1,5 @@
+package session_17_equals_hashcode_generics.challenge.challenge_1;
+
 import java.util.Objects;
 
 public class Rectangle {

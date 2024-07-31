@@ -1,3 +1,5 @@
+package session_17_equals_hashcode_generics.challenge.challenge_3;
+
 import java.util.Objects;
 
 public class Student {
