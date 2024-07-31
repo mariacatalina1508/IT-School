@@ -7,31 +7,31 @@ public class Challenge_7 {
     public static void main(String[] args) {
 
 
-        LinkedList<String> VisitPlace = new LinkedList<>();
-        VisitPlace.add("New York");
-        VisitPlace.add("Los Angeles");
-        VisitPlace.add("Mexico");
-        VisitPlace.add("San Francisco");
-        VisitPlace.add("Berlin");
-        VisitPlace.add("Paris");
+        LinkedList<String> visitedPlaces = new LinkedList<>();
+        visitedPlaces.add("New York");
+        visitedPlaces.add("Los Angeles");
+        visitedPlaces.add("Mexico");
+        visitedPlaces.add("San Francisco");
+        visitedPlaces.add("Berlin");
+        visitedPlaces.add("Paris");
 
         System.out.println("The original LinkedList: ");
-        displayVisitPlace(VisitPlace);
+        displayVisitPlace(visitedPlaces);
 
-        VisitPlace.offerFirst("Madrid");
+        visitedPlaces.offerFirst("Madrid");
 
         System.out.println("Linked list after insert the specified element.");
-        displayVisitPlace(VisitPlace);
+        displayVisitPlace(visitedPlaces);
 
-        VisitPlace.addFirst("Philadelphia");
+        visitedPlaces.addFirst("Philadelphia");
 
         System.out.println("Linked list after insert another specified element.");
-        displayVisitPlace(VisitPlace);
+        displayVisitPlace(visitedPlaces);
 
-        VisitPlace.push("California");
+        visitedPlaces.push("California");
 
         System.out.println("Linked list after insert another specified element");
-        displayVisitPlace(VisitPlace);
+        displayVisitPlace(visitedPlaces);
     }
 
     public static void displayVisitPlace(LinkedList<String> VisitPlace) {
