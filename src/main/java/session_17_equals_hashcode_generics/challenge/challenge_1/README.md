@@ -1,0 +1,1 @@
+### 1. Implement the equals() and hashCode() methods for a Rectangle class with width and height fields. Test that two instances with the same width and height return true for equals() and have the same hash code.
